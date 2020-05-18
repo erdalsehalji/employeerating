@@ -40,6 +40,21 @@
   </div>
 </template>
 
+
+
+<script type="text/javascript">
+import store from '@/store.js'
+
+export default {
+  data () {
+    return store;
+  },
+
+ 
+}
+</script>
+
+
 <style lang="scss">
 h111 {
   padding: 20px;

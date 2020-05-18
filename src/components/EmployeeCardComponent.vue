@@ -6,12 +6,12 @@
             <div class="card-container">
                 <span class="pro">POSITION</span>
                 <img class="round" src="employee.jpg" alt="user" />
-                <h3>NAME AND SURNAME : {{}}</h3>
-                <p>AGE : {{}}</p>
-                <p>SEX : {{}}</p>
-                <p>ADDRESS : {{}}</p>
-                <p>POSITION : {{}}</p>
-                <p>ENTERPRISE : {{}}</p>
+                <h3>NAME AND SURNAME : {{ info.signupName}}  {{ info.signupSurname }}  </h3>
+                <p>AGE : {{ info.signupAge }}</p>
+                <p>SEX : {{ info.signupSex }}</p>
+                <p>ADDRESS : {{ info.signupAddress }}</p>
+                <p>POSITION : {{ info.signupPosition }}</p>
+                <p>ENTERPRISE : {{ info.signupEnterprise }}</p>
                 <div class="buttons">
 
 
@@ -29,6 +29,9 @@
                         <input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
 
                     </span>
+                    <br>
+                     <button type="submit" class="btn btn-danger"><i
+                        class="fa fa-share"></i>RATE</button>
                 </div>
                 <div class="skills">
                     <h6>Comments</h6>
@@ -70,18 +73,14 @@
 </template>
 
 <script>
+
 export default {
     props: ["info"],
-    data () {
-        return {
-            global: store,
-            newComment: "",
-            comments: []
-        }
-    }
-    
 }
+
 </script>
+
+
 <style scoped>.rating {
     overflow: hidden;
     display: inline-block;
@@ -130,7 +129,7 @@ h6 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 21px;
 }
 
