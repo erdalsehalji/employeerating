@@ -1,0 +1,51 @@
+export default {
+    cards: [ 
+        {
+            id: '1',
+            signupName: 'Ivan',
+            signupSurname: 'Ivic',
+            signupEnterprise: 'Agrokor',
+            signupPosition: 'Big boss',
+            signupAge: '45',
+            signupSex: 'M',
+            signupEmail: 'iveboss@gmail.com',
+            signupPassword: 'jpozo',
+            signupAddress: 'Ulica Kneza Trpimira',
+            signupCity: 'Umag',
+            signupImage: ''
+        }, 
+       
+        {
+            id: '2',
+            signupName: 'Zoran',
+            signupSurname: 'Zolic',
+            signupEnterprise: 'Zoki Gradnja',
+            signupPosition: 'direktor',
+            signupAge: '32',
+            signupSex: 'M',
+            signupEmail: 'zoki@gmail.com',
+            signupPassword: 'sfssdf',
+            signupAddress: 'Maruliceva 32',
+            signupCity: 'Split',
+            signupImage: ''
+        },
+
+        {
+            id: '3',
+            signupName: 'Ivano',
+            signupSurname: 'oIvic',
+            signupEnterprise: 'Agrokoka',
+            signupPosition: 'boss',
+            signupAge: '40',
+            signupSex: 'M',
+            signupEmail: 'ivenboss@gmail.com',
+            signupPassword: 'jopozo',
+            signupAddress: 'Ulica Trpimira',
+            signupCity: 'Pag',
+            signupImage: ''
+        }
+
+       
+      ],
+    searchTerm: ''
+}
